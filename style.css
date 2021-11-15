@@ -1,0 +1,132 @@
+
+body{
+    font-family:'Montserrat', sans-serif;
+    background-color: #E2EEF3;
+ }
+
+.navbar {
+  overflow: hidden;
+  background-color: #DFEBF0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 97%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #221C35;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  border-right: 1px solid #f2f2f241;
+}
+
+.navbar a:hover {
+  background-color: #C4D7DE;
+  color:  #221C35;
+}
+
+
+ .page1{
+    background-color: #E2EEF3;
+    padding: 6% 11%;
+}
+
+.page1_flex{
+    display: inline-flex;
+}
+
+
+.photo1{
+    position: relative;
+   border-radius: 50%;
+    margin-right: 24%;
+    margin-top: 5%;
+}
+
+.text1{
+    position: relative;
+     font-size: 60px;
+    color: #221C35;
+    margin-top: 4%;
+   display: flex;
+   justify-content: center;
+    margin: 5% auto;
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 6%;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.rt{
+    margin-left: 10px;
+    margin-right: 10px;
+display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    width: 84%;
+    padding: 3%;
+    border: 3px solid #221C35;
+}
+
+.page2{
+    background-color: #E2EEF3;
+    width: 84%;
+}
+
+.page2_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ti{
+ font-size: 23px;
+color: #221C35;
+}
+
+.photo2{
+    position: relative;
+margin-top: 20px;
+padding: 3%;
+margin-right: 60px;
+margin-bottom: 20px;
+margin-left: 1%;
+}
+
+.rt img:hover{
+ position: relative;
+    opacity: 1;
+    transform: scale(1.1); 
+    transition-duration: 0.5s;
+}
+
+.text_p2{
+    font-size: 23px;
+  position: relative;
+color: #221C35;
+margin-top: 4%;
+   display: flex;
+   justify-content: center;
+    margin: 5% auto;
+    width: 90%;
+    margin-bottom: 5%;
+    padding: 3%;
+    flex-direction: column;
+
+}
+
+
+.tit{
+    font-size: 27px;
+    text-align: center;
+color: #221C35;
+}
